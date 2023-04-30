@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    background: #cecece;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.85);
+    padding: 1vw;
+    min-width: 250px;
+    max-width: 2500px;
+    max-height: 100vh;
+    overflow: auto;
+    border-radius: 5px;
+    box-shadow:1px 2px 1px 2px #999;
+    width: 75vw;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    margin: 1vw 0;
+    color: dodgerblue;
+    font-family: 'Comme', sans-serif;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+h3 {
+    font-size: 1.75vw;
+}
+
+p, a, .project__stat {
+    margin: 1vw 0; 
+    font-size: 1vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+em, i {
+    font-style: italic;
+}
+
+a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.project-list {
+    padding: 1vw;
+}
+
+.project {
+    display: block;
+    border: 1px solid rgba(0, 0,0,0.5);
+    padding: 1vw;
+    border-radius: 5px;
+    margin: 1vw 0;
+}
+
+.project__stat {
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 0.5vw;
+    margin: 0.5vw;
+    border-radius: 5px;
+    background: #eee;
+}
+
+.project__stat--first {
+    margin-left: 0;
+}
+
+.project__stat--last {
+    margin-right: 0;
+}
+
+
+/* TODO: Remove when no longer needed. */
+.warning {
+    display: block;
+    padding: 1vw;
+    margin: 1vw 0;
+    background: pink;
+    border: red;
+    border-radius: 5px;
+    color: red;
+
+}
